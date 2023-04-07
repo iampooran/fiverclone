@@ -71,6 +71,7 @@ function Navbar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
   const JoinButton = styled(Button)(({ theme }) => ({
+    fontFamily: "Roboto",
     borderColor: trigger ? "#1DBF73" : "white",
     color: trigger ? "#1DBF73" : "white",
     "&:hover": {
