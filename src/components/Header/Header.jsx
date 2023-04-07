@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import Navbar from "../Navbar/Navbar";
+// import Navbar from "../Navbar/Navbar";
 import "./Header.css";
 import Slide from "../Slide/Slide";
 import Heading from "../Heading/Heading";
@@ -35,7 +35,7 @@ const Header = () => {
   return (
     <>
       <Box>
-        <Navbar />
+        {/* <Navbar /> */}
         <Heading />
         <Carousel
           autoPlay

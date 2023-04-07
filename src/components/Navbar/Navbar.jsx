@@ -10,12 +10,13 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import logo from "../../assets/logo.png";
-import { useScrollTrigger } from "@mui/material";
+import { Divider, useScrollTrigger } from "@mui/material";
 import scrolllogo from "../../assets/scrolllogo.png";
 import SearchIcon from "@mui/icons-material/Search";
 import { styled, alpha } from "@mui/material/styles";
 import InputBase from "@mui/material/InputBase";
 import LanguageOutlinedIcon from "@mui/icons-material/LanguageOutlined";
+import SubNavbar from "./SubNavbar";
 
 const Search = styled("div")(({ theme }) => ({
   position: "absolute",
@@ -68,6 +69,7 @@ const pages = [
 
 function Navbar() {
   const trigger = useScrollTrigger();
+  
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
   const JoinButton = styled(Button)(({ theme }) => ({
@@ -95,7 +97,7 @@ function Navbar() {
         position: trigger && "sticky",
         transition: "500ms",
         backgroundColor: { xs: "white", md: trigger ? "#fff" : "transparent" },
-        padding: "0px 32px",
+        padding: "5px 40px",
       }}
       elevation={0}
     >
@@ -217,7 +219,7 @@ function Navbar() {
                 sx={{
                   cursor: "pointer",
                   my: 2,
-                  color: trigger ? "black" : "white",
+                  color: trigger ? "#62646A" : "white",
                   display: "block",
                   mr: 5,
                   ml: page === "Explore" && 3,
@@ -245,7 +247,10 @@ function Navbar() {
           >
             Join
           </JoinButton>
+          
         </Toolbar>
+        {trigger && <Divider style={{display:{xs:"none"}, position:"absolute", width:'100%',right:'0rem', top:'4.5rem'}}/>}
+        <SubNavbar/>
       </Container>
     </AppBar>
   );
