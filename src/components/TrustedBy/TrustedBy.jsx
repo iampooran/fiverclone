@@ -3,7 +3,7 @@ import React from 'react'
 
 const TrustedBy = () => {
   return (
-    <Box sx={{background:'#FAFAFA', height:'1000px'}}>TrustedBy</Box>
+    <Box sx={{background:'#FAFAFA', height:'1000px'}}></Box>
   )
 }
 

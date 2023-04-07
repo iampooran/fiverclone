@@ -58,7 +58,7 @@ const Header = () => {
             }}
           >
             <Typography variant="h3" sx={{ fontWeight: "600", color: "white" }}>
-              Find the perfect freelance services for your business
+              Find the perfect <span  style={{marginLeft:'10px',fontFamily:"Domaine Display Narrow", fontStyle:"italic"}}>freelance</span> services for your business
             </Typography>
             <Box sx={{ display: "flex", marginTop: "1.3rem" }}>
               <Paper
