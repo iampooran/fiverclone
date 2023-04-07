@@ -24,7 +24,7 @@ const Search = styled("div")(({ theme }) => ({
   backgroundColor: alpha(theme.palette.common.white, 0.15),
   border: "1px solid #95979D",
   left: "8rem",
-  bottom:"0.8rem",
+  bottom: "0.8rem",
   width: "100%",
   [theme.breakpoints.up("sm")]: {
     marginLeft: theme.spacing(1),
@@ -93,7 +93,7 @@ function Navbar() {
     <AppBar
       sx={{
         position: trigger && "sticky",
-        transition: '500ms',
+        transition: "500ms",
         backgroundColor: { xs: "white", md: trigger ? "#fff" : "transparent" },
         padding: "0px 32px",
       }}

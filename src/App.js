@@ -3,11 +3,12 @@ import Header from "./components/Header/Header";
 import TrustedBy from "./components/TrustedBy/TrustedBy";
 
 function App() {
-  return <Box>
-  {/* <Navbar/> */}
-  <Header/>
-  <TrustedBy/>
-  </Box>;
+  return (
+    <Box>
+      <Header />
+      <TrustedBy />
+    </Box>
+  );
 }
 
 export default App;

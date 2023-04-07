@@ -42,7 +42,14 @@ const Heading = () => {
     marginLeft: "0.7rem",
   }));
   return (
-    <Box sx={{position:'absolute', width:'45%', margin: '13rem 8rem'}}>
+    <Box
+      sx={{
+        position: "absolute",
+        width: "45%",
+        margin: "13rem 8rem",
+        zIndex: 1,
+      }}
+    >
       <Typography variant="h3" sx={{ fontWeight: "600", color: "white" }}>
         Find the perfect{" "}
         <span
