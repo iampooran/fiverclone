@@ -91,8 +91,8 @@ function Navbar() {
 
   return (
     <AppBar
-      position="sticky"
       sx={{
+        position: trigger && "sticky",
         transition: '500ms',
         backgroundColor: { xs: "white", md: trigger ? "#fff" : "transparent" },
         padding: "0px 32px",
