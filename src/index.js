@@ -17,11 +17,14 @@ const theme = createTheme({
       freelancer4: "#B48F19",
       freelancer5: "#B48F19",
       freelancer6: "#B48F19",
+    },
+    navbar:{
+      transparent: ""
     }
   },
-  // typography: {
-  //   fontFamily: ["Sen"].join(","),
-  // },
+  typography: {
+    fontFamily: 'Roboto',
+  },
 });
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
