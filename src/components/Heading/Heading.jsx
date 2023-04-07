@@ -48,6 +48,7 @@ const Heading = () => {
         width: "45%",
         margin: "13rem 8rem",
         zIndex: 1,
+        display:{xs:"none",md:"block"}
       }}
     >
       <Typography variant="h3" sx={{ fontWeight: "600", color: "white" }}>
@@ -92,8 +93,8 @@ const Heading = () => {
         <Typography sx={{ fontWeight: "bold", color: "white" }}>
           Popular:
         </Typography>
-        {category.map((cate) => (
-          <CategoryButton variant="outlined">{cate}</CategoryButton>
+        {category.map((cate,index) => (
+          <CategoryButton key={index} variant="outlined">{cate}</CategoryButton>
         ))}
       </Box>
     </Box>

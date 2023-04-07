@@ -12,6 +12,7 @@ import Freelancer7 from "../../assets/Freelancer/Freelancer7.png";
 import Freelancer8 from "../../assets/Freelancer/Freelancer8.png";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
+import MobileHeader from "../MobileHeader/MobileHeader";
 
 const cssClasses = [
   "background1",
@@ -45,13 +46,15 @@ const Header = () => {
           showIndicators={false}
           swipeable={false}
         >
-          {totalFreelancer.map((frelance) => (
+          {totalFreelancer.map((frelance,index) => (
             <Slide
+            key={index}
               cssClasses={cssClasses[frelance]}
               freelancer={freelancer[frelance]}
             />
           ))}
         </Carousel>
+        <MobileHeader/>
       </Box>
     </>
   );

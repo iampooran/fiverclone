@@ -208,7 +208,7 @@ function Navbar() {
 
           {/* Desktop Menu */}
           <Box sx={{ flexGrow: 0, display: { xs: "none", md: "flex" } }}>
-            {pages.map((page) => (
+            {pages.map((page,index) => (
               <Typography
                 fontSize={17}
                 fontWeight="500"
