@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Services from "./components/Services/Services";
 import SellingProposition from "./components/SellingProposition/SellingProposition";
 import Footer from "./components/Footer/Footer";
+import MarketPlace from "./components/MarketPlace/MarketPlace";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <TrustedBy />
       <Services/>
       <SellingProposition/>
+      <MarketPlace/>
       <Footer/>
 
     </Box>

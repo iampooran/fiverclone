@@ -1,0 +1,14 @@
+.child {
+    transition: 1s;
+}
+
+.parent:hover .child {
+    height: 2px;
+    background-color: #1DBF73;
+    border: none;
+    width: 45%;
+}
+
+.parent{
+    cursor: pointer;
+}
