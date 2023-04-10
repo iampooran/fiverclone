@@ -4,6 +4,7 @@ import TrustedBy from "./components/TrustedBy/TrustedBy";
 import Navbar from "./components/Navbar/Navbar";
 import Services from "./components/Services/Services";
 import SellingProposition from "./components/SellingProposition/SellingProposition";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
       <TrustedBy />
       <Services/>
       <SellingProposition/>
+      <Footer/>
+
     </Box>
   );
 }

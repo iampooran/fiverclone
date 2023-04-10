@@ -222,12 +222,12 @@ function Navbar() {
                   color: trigger ? "#62646A" : "white",
                   display: "block",
                   mr: 5,
-                  ml: page === "Explore" && 3,
+                  ml: page === "English" && 3,
                 }}
               >
-                {page === "Explore" && (
+                {page === "English" && (
                   <LanguageOutlinedIcon
-                    sx={{ position: "absolute", right: "32.5rem" }}
+                    sx={{ position: "absolute", right: "26.5rem" }}
                   />
                 )}
                 <span
