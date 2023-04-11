@@ -9,6 +9,7 @@ import MarketPlace from "./components/MarketPlace/MarketPlace";
 import FiverBusiness from "./components/FiverBusiness/FiverBusiness";
 import SwipableTestomonial from "./components/Testimonial/SwipableTestomonial";
 import LogoMaker from "./components/LogoMaker/LogoMaker";
+import FindTalent from "./components/FindTalent/FindTalent";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <FiverBusiness/>
       <SwipableTestomonial/>
       <LogoMaker/>
+      <FindTalent/>
       <Footer/>
     </Box>
   );

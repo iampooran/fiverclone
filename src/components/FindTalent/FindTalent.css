@@ -1,0 +1,21 @@
+.findTalentBox{
+
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(90deg, rgba(66, 9, 26, 1) 0%, rgba(80, 23, 40, 1) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(90deg, rgba(66, 9, 26, 1) 0%, rgba(80, 23, 40, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(90deg, rgba(66, 9, 26, 1) 0%, rgba(80, 23, 40, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#501728', endColorstr='#42091A', GradientType=0 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(90deg, rgba(66, 9, 26, 1) 0%, rgba(80, 23, 40, 1) 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(90deg, rgba(66, 9, 26, 1) 0%, rgba(80, 23, 40, 1) 100%);
+
+}
