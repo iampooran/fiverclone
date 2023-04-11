@@ -8,32 +8,44 @@ import Herfest from "../../assets/Testimonial/herfest.mp4"
 import Testimonial from './Testimonial'
 import { Box } from '@mui/material';
 
+import nadamLogo from "../../assets/companyLogo/naadam.png"
+import lavenderLogo from "../../assets/companyLogo/lavender.png"
+import haerfestLogo from "../../assets/companyLogo/haerfest.png"
+import rootedLogo from "../../assets/companyLogo/rooted.png"
+
+import nadamPoster from "../../assets/poster/naadam.webp"
+import lavenderPoster from "../../assets/poster/lavender.webp"
+import haerfestPoster from "../../assets/poster/haerfest.webp"
+import rootedPoster from "../../assets/poster/rooted.webp"
+
+
+
 const testomonialItem = [
     {
       title:"Caitlin Tormey, Chief Commercial Officer",
-      companyLogo:"https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/naadam-logo-x2.a79031d.png",
-      poster:'https://fiverr-res.cloudinary.com/q_auto,f_auto,w_450,dpr_1.0/v1/attachments/generic_asset/asset/42a6fd208670a0361b38bd72b47b9317-1599519173414/testimonial-video-still-naadam.jpg',
+      companyLogo:nadamLogo,
+      poster:nadamPoster,
       desc:`"We've used Fiverr for Shopify web development, graphic design, and backend web development. Working with Fiverr makes my job a little easier every day."`,
       videoLink: NaddamVideo,
     },
     {
         title:"Kay Kim, Co-Founder",
-        companyLogo:"https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/rooted-logo-x2.7da3bc9.png",
+        companyLogo:rootedLogo,
         desc:`"It's extremely exciting that Fiverr has freelancers from all over the world — it broadens the talent pool. One of the best things about Fiverr is that while we're sleeping, someone's working."`,
-        poster:"https://fiverr-res.cloudinary.com/q_auto,f_auto,w_450,dpr_1.0/v1/attachments/generic_asset/asset/42a6fd208670a0361b38bd72b47b9317-1599519173399/testimonial-video-still-rooted.jpg",
+        poster:rootedPoster,
         videoLink: Rooted,
       },
       {
         title:"Brighid Gannon, Co-Founder",
-        companyLogo:"https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/lavender-logo-x2.3fff9e7.png",
-        poster:'https://fiverr-res.cloudinary.com/q_auto,f_auto,w_450,dpr_1.0/v1/attachments/generic_asset/asset/42a6fd208670a0361b38bd72b47b9317-1599519173396/testimonial-video-still-lavender.jpg',
+        companyLogo:lavenderLogo,
+        poster:lavenderPoster,
         desc:`"We used Fiverr for SEO, our logo, website, copy, animated videos — literally everything. It was like working with a human right next to you versus being across the world."`,
         videoLink: Lavender,
       },
       {
         title:"Tim and Dan Joo, Co-Founders",
-        companyLogo:"https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/haerfest-logo-x2.934ab63.png",
-        poster:'https://fiverr-res.cloudinary.com/q_auto,f_auto,w_450,dpr_1.0/v1/attachments/generic_asset/asset/42a6fd208670a0361b38bd72b47b9317-1599519173395/testimonial-video-still-haerfest.jpg',
+        companyLogo:haerfestLogo,
+        poster:haerfestPoster,
         desc:`"When you want to create a business bigger than yourself, you need a lot of help. That's what Fiverr does."`,
         videoLink: Herfest,
       },

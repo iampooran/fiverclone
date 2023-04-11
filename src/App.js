@@ -11,6 +11,7 @@ import SwipableTestomonial from "./components/Testimonial/SwipableTestomonial";
 import LogoMaker from "./components/LogoMaker/LogoMaker";
 import FindTalent from "./components/FindTalent/FindTalent";
 import ListOfInspiredProjects from "./components/InspiredProjects/ListOfInspiredProjects";
+import GuidList from "./components/Guides/GuidList";
 
 function App() {
   return (
@@ -24,8 +25,9 @@ function App() {
       <FiverBusiness/>
       <SwipableTestomonial/>
       <LogoMaker/>
-      <FindTalent/>
       <ListOfInspiredProjects/>
+      <GuidList/>
+      <FindTalent/>
       <Footer/>
     </Box>
   );
