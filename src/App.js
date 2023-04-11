@@ -8,6 +8,7 @@ import Footer from "./components/Footer/Footer";
 import MarketPlace from "./components/MarketPlace/MarketPlace";
 import FiverBusiness from "./components/FiverBusiness/FiverBusiness";
 import SwipableTestomonial from "./components/Testimonial/SwipableTestomonial";
+import LogoMaker from "./components/LogoMaker/LogoMaker";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <MarketPlace/>
       <FiverBusiness/>
       <SwipableTestomonial/>
+      <LogoMaker/>
       <Footer/>
     </Box>
   );
