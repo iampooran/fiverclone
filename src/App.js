@@ -7,6 +7,7 @@ import SellingProposition from "./components/SellingProposition/SellingPropositi
 import Footer from "./components/Footer/Footer";
 import MarketPlace from "./components/MarketPlace/MarketPlace";
 import FiverBusiness from "./components/FiverBusiness/FiverBusiness";
+import SwipableTestomonial from "./components/Testimonial/SwipableTestomonial";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <SellingProposition/>
       <MarketPlace/>
       <FiverBusiness/>
+      <SwipableTestomonial/>
       <Footer/>
     </Box>
   );
