@@ -6,6 +6,7 @@ import Services from "./components/Services/Services";
 import SellingProposition from "./components/SellingProposition/SellingProposition";
 import Footer from "./components/Footer/Footer";
 import MarketPlace from "./components/MarketPlace/MarketPlace";
+import FiverBusiness from "./components/FiverBusiness/FiverBusiness";
 
 function App() {
   return (
@@ -16,8 +17,8 @@ function App() {
       <Services/>
       <SellingProposition/>
       <MarketPlace/>
+      <FiverBusiness/>
       <Footer/>
-
     </Box>
   );
 }
